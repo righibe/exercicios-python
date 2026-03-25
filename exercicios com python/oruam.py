@@ -56,10 +56,10 @@ grau_fa.set("10")
 tk.Spinbox(janela, from_=0, to=10, textvariable=grau_fa, width=5).grid(row=3, column=1, sticky="w")
 
 var_pix = tk.BooleanVar()
-tk.Checkbutton(janela, text="Já fez pix pro Tigrin 💸", variable=var_pix).grid(row=4, columnspan=2, sticky="w")
+tk.Checkbutton(janela, text="Já fez pix pro Tigrin", variable=var_pix).grid(row=4, columnspan=2, sticky="w")
 
 var_bundao = tk.BooleanVar()
-tk.Checkbutton(janela, text="Tem bundão de academia 🍑", variable=var_bundao).grid(row=5, columnspan=2, sticky="w")
+tk.Checkbutton(janela, text="Tem bundão de academia", variable=var_bundao).grid(row=5, columnspan=2, sticky="w")
 
 var_baile = tk.BooleanVar()
 tk.Checkbutton(janela, text="Topa ir pro baile no complexo 🎶", variable=var_baile).grid(row=6, columnspan=2, sticky="w")
