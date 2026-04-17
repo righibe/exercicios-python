@@ -22,13 +22,14 @@ def exibir_resultado(dados: dict):
     else:
         print("   Nenhum país encontrado para esse nome.")
 
-nome_completo = input("Digite seu nome completo: ").strip()
-partes = nome_completo.split()
-primeiro_nome = partes[0]
-sobrenome = partes[-1]
+while True:
+    nome_completo = input("Digite seu nome completo: ").strip()
+    partes = nome_completo.split()
+    primeiro_nome = partes[0]
+    sobrenome = partes[-1]
 
-print("\n--- Primeiro Nome ---")
-exibir_resultado(nome_api(primeiro_nome))
+    print("\n--- Primeiro Nome ---")
+    exibir_resultado(nome_api(primeiro_nome))
 
-print("\n--- Sobrenome ---")
-exibir_resultado(nome_api(sobrenome))
+    print("\n--- Sobrenome ---")
+    exibir_resultado(nome_api(sobrenome))

